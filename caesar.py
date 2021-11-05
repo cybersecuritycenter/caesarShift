@@ -4,9 +4,9 @@ import sys
 from random import randrange
 
 flags = open(sys.argv[1],"r")
-wordlist = open("/usr/share/wordlists/fasttrack.txt","r")
+wordlist = open("fasttrack.txt","r")
 
-with open("/usr/share/wordlists/fasttrack.txt") as w:
+with open("fasttrack.txt") as w:
 	words = w.read().splitlines()
 
 def encrypt(text, s):
