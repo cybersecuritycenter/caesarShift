@@ -10,21 +10,27 @@ Users can download the repo form here on our github, or open up your linux machi
 These instruction will how you how to use the program using Visual Studio Code.
 Open the repo using Visual Studio Code and install the needed extensions of Python if you have not yet done so.
 Then, verify the Python installation by typing in the following:
-```py -3 --version```
+```
+py -3 --version
+```
 If the installation was successful, the output window should show the version of Python that you installed.
 
 To begin the program, first type in 
-```py createflags.py > flags.txt```
+```
+py createflags.py > flags.txt
+```
 This will create flags and input them into a .txt file called flags.txt.
 *Note - Any other name can be used as long as it ends with .txt*
 
 The next step is to run caesar.py, open up your newly created file, and create a `.csv` file to input your results.
-```py caesar.py flags.txt > shiftedwords.csv```
+```
+py caesar.py flags.txt > shiftedwords.csv
+```
 
 You should get something that looks like the following file
-```
+
 ![image](https://user-images.githubusercontent.com/93400667/140547051-f4266742-1656-442d-8e55-84d71ada164b.png)
-```
+
 
 ## Contributing
 
