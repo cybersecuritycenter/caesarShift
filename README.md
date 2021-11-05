@@ -3,6 +3,18 @@
 ## Description
 This is a tool to encrypt and decrypt a message using a Caesar Shift cipher.  A Caesar Shift cipher is a type of substition cipher that replaces a letter with a fixed number of positions down the alphabet. 
 
+### Caesar.py
+This program is written in Python and its goal is to decrypt encrypted flags
+
+### caesarshift.sh
+This is a bash Script that will put our flags in a flags.txt file
+
+### createflags.py
+Python program that will use CaesarShift to give a randomly generated flags that follow this format CAHSI-AAAAA-#####
+
+### fasttrack.txt
+Our wordlist that users can easily modify.
+
 ## Installation
 Users can download the repo form here on our github, or open up your linux machine open up a terminal and open up your favorite text editor.
 
